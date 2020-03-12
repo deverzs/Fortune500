@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="viewCompanyDetails"
+    android:clickable="true"
+    android:id="@+id/companyListLinearLayout"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/companyListRankTextView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/rank"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/companyListImageView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="@string/game"
+        android:src="@mipmap/ic_launcher"></ImageView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/companyListNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/company_placeholder"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/companyListProfitChangeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profit_change_placeholder"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

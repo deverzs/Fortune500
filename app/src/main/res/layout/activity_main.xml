@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.miracosta.fortune500.MainActivity"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+
+    <LinearLayout
+        android:id="@+id/companyEntryLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/aqua"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:ems="10"
+            android:textSize="24sp"
+            android:gravity="center_horizontal|center_vertical"
+            android:hint="@string/name" >
+            <requestFocus/>
+        </EditText>
+
+        <EditText
+            android:id="@+id/proiftChangeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center_horizontal|center_vertical"
+            android:hint="@string/description"
+            android:inputType="numberSigned|numberDecimal" />
+
+        <EditText
+            android:id="@+id/rankEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center_horizontal|center_vertical"
+            android:hint="@string/rank_description"
+            android:inputType="numberSigned|numberDecimal" />
+
+        <Button
+            android:id="@+id/addCompanyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:onClick="addCompany" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/companyListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@color/dark_aqua"
+        android:paddingStart="0dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="30dp"
+        android:paddingBottom="4dp">
+
+    </ListView>
+
+</LinearLayout>

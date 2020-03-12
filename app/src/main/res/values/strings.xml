@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fortune 500</string>
+
+    <string name="add">Add Company</string>
+    <string name="name">Enter name of the company</string>
+    <string name="delete">Clear all Games</string>
+    <string name="desc">Profit Change</string>
+    <string name="description">Enter company\'s profit change (from last year)</string>
+    <string name="rank_description">Enter company\'s Fortune 500 rank</string>
+    <string name="game">Company</string>
+    <string name="default_text_view">TextView</string>
+    <string name="rank">1</string>
+    <string name="company_placeholder">Company Name</string>
+    <string name="employees_placeholder">Number of Employees</string>
+    <string name="profit_placeholder">Profits</string>
+    <string name="profit_change_placeholder">Profit Change</string>
+    <string name="market_value_placeholder">Market Value</string>
+
+</resources>

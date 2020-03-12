@@ -1,0 +1,95 @@
+{
+"Companies":
+[
+  {
+    "Name": "Walmart",
+    "Rank": 1,
+    "Employees": 2200000,
+    "Profits": 6670,
+    "ProfitChange": -0.324,
+    "MarketValue": 279880,
+    "ImageName": "Walmart.png"
+  },
+  {
+    "Name": "Exxon Mobil",
+    "Rank": 2,
+    "Employees": 71000,
+    "Profits": 20840,
+    "ProfitChange": 0.057,
+    "MarketValue": 342172,
+    "ImageName": "ExxonMobil.png"
+  },
+  {
+    "Name": "Apple",
+    "Rank": 3,
+    "Employees": 132000,
+    "Profits": 59531,
+    "ProfitChange": 0.231,
+    "MarketValue": 895667,
+    "ImageName": "Apple.png"
+  },
+  {
+    "Name": "Berkshire Hathaway",
+    "Rank": 4,
+    "Employees": 389000,
+    "Profits": 4021,
+    "ProfitChange": -0.911,
+    "MarketValue": 493870,
+    "ImageName": "BerkshireHathaway.png"
+  },
+  {
+    "Name": "Amazon.com",
+    "Rank": 5,
+    "Employees": 647500,
+    "Profits": 10073,
+    "ProfitChange": 2.321,
+    "MarketValue": 874710,
+    "ImageName": "Amazon.png"
+  },
+  {
+    "Name": "UnitedHealth Group",
+    "Rank": 6,
+    "Employees": 300000,
+    "Profits": 11986,
+    "ProfitChange": 0.135,
+    "MarketValue": 237256,
+    "ImageName": "UnitedHealth.png"
+  },
+  {
+    "Name": "McKesson",
+    "Rank": 7,
+    "Employees": 68000,
+    "Profits": 67,
+    "ProfitChange": -0.987,
+    "MarketValue": 22455,
+    "ImageName": "McKesson.png"
+  },
+  {
+    "Name": "CVS Health",
+    "Rank": 8,
+    "Employees": 295000,
+    "Profits": -594,
+    "ProfitChange": -1.09,
+    "MarketValue": 69952,
+    "ImageName": "CVS.png"
+  },
+  {
+    "Name": "AT&T",
+    "Rank": 9,
+    "Employees": 268220,
+    "Profits": 19370,
+    "ProfitChange": -0.342,
+    "MarketValue": 228445,
+    "ImageName": "ATT.png"
+  },
+  {
+    "Name": "AmerisourceBergen",
+    "Rank": 10,
+    "Employees": 20500,
+    "Profits": 1658.4,
+    "ProfitChange": 3.55,
+    "MarketValue": 16786,
+    "ImageName": "AmerisourceBergen.png"
+  }
+]
+}
